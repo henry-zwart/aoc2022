@@ -15,7 +15,7 @@ EXAMPLE_DATA = """1000
 
 
 def main():
-    with open("data/d1p1.txt") as f:
+    with open("data/d1.txt") as f:
         contents = f.read()
 
     total_elf_calories = sorted(
